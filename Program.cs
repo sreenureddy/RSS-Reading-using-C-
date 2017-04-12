@@ -1,4 +1,4 @@
-﻿using System.Data.SqlClient;
+using System.Data.SqlClient;
 using System.Text;
 using System;
 using System.Xml;
@@ -127,7 +127,7 @@ namespace test1
 			try
 			{
 				string connectionString =
-					@"Server=192.168.0.7;Database=TestDatabase;User ID=Test;Password=Qwer~1";
+					@"Server=192.168..;Database= "";User ID="";Password="";
 				
 				using (SqlConnection conn = 
 				       new SqlConnection(connectionString)) 
